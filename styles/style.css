@@ -143,3 +143,77 @@
     background: rgba(82, 195, 3, 0.15);
     padding: 14px 32px 14px 32px;
 }
+
+/* Feature Section Style  */
+
+
+
+.feature {
+    max-width: 1560px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 500px;
+}
+.feature-image{
+   flex:1;
+
+
+}
+.feature  img{
+   width:100%;
+
+}
+
+.feature-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-tittle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feature-sub-tittle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.feature-box{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin: 30px 0px;
+    padding: 30px 10px 30px 10px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.feature-logo{
+    display: flex;
+    gap: 25px;
+
+}
